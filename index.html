@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="es" data-scroll-behavior="smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GLTech | Conectamos tus ideas con el mundo</title>
+<meta name="description" content="GLTech (ex Galander S.A.) — Líderes en telecomunicaciones y radiocomunicaciones con más de 45 años de trayectoria en Argentina y la región.">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="imgs/favicon.png">
+
+<!-- Bootstrap 5.3 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<!-- Custom styles -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= SKIP LINK ================= -->
+<a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+<!-- ================= HEADER ================= -->
+<header class="gl-header" id="glHeader">
+  <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
+    <div class="container gl-nav-container">
+      <a class="gl-logo" href="#inicio" aria-label="GLTech - Inicio">
+        <img src="imgs/gltech-logo-light.png" alt="GLTech" class="gl-logo-img">
+      </a>
+
+      <button class="gl-toggler" id="navToggler" type="button" aria-controls="glNavMenu" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="gl-menu-wrap" id="glNavMenu">
+        <ul class="navbar-nav gl-nav-list">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+          <li class="nav-item dropdown-hover">
+            <a class="nav-link" href="#soluciones">Soluciones</a>
+            <ul class="gl-dropdown">
+              <li><a href="#soluciones-comunicaciones"><i class="fa-solid fa-tower-broadcast"></i> Comunicaciones</a></li>
+              <li><a href="#soluciones-ingenieria"><i class="fa-solid fa-diagram-project"></i> Ingeniería</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#servicio-tecnico">Servicio Técnico</a></li>
+          <li class="nav-item"><a class="nav-link" href="#novedades">Novedades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+        <a href="#contacto" class="btn gl-btn-cta d-lg-inline-flex">
+          <i class="fa-solid fa-bolt"></i> Contáctanos
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- WhatsApp flotante -->
+<a href="https://wa.me/5493517003210" class="gl-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+  <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+</a>
+
+<main id="main-content">
+
+  <!-- ================= HERO ================= -->
+  <section class="gl-hero" id="inicio">
+    <div class="gl-hero-bg" aria-hidden="true">
+      <div class="gl-grid-overlay"></div>
+      <div class="gl-glow gl-glow-1"></div>
+      <div class="gl-glow gl-glow-2"></div>
+    </div>
+    <div class="container gl-hero-inner">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <p class="gl-eyebrow fade-in-up"><i class="fa-solid fa-signal"></i> Más de 45 años conectando Argentina</p>
+          <h1 class="gl-hero-title fade-in-up">Conectamos tus ideas <span class="accent-text">con el mundo</span></h1>
+          <p class="gl-hero-sub fade-in-up">
+            Líderes en telecomunicaciones y radiocomunicaciones con más de 45 años de trayectoria en Argentina y la región.
+            Proveedores de soluciones de misión crítica para industrias, fuerzas de seguridad y grandes empresas.
+          </p>
+          <div class="gl-hero-cta fade-in-up">
+            <a href="#soluciones" class="btn gl-btn-primary">Ver Soluciones <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#servicio-tecnico" class="btn gl-btn-outline">Servicio Técnico Oficial</a>
+          </div>
+          <div class="gl-hero-stats fade-in-up">
+            <div class="gl-stat">
+              <span class="gl-stat-value"><span class="gl-stat-num" data-count="45">0</span><span class="gl-stat-suffix">+</span></span>
+              <span class="gl-stat-label">Años de trayectoria</span>
+            </div>
+            <div class="gl-stat">
+              <span class="gl-stat-value"><span class="gl-stat-num" data-count="2800">0</span><span class="gl-stat-suffix">+</span></span>
+              <span class="gl-stat-label">Puntos Wi-Fi desplegados</span>
+            </div>
+            <div class="gl-stat">
+              <span class="gl-stat-value"><span class="gl-stat-num" data-count="100">0</span><span class="gl-stat-suffix">%</span></span>
+              <span class="gl-stat-label">Distribuidor oficial Motorola</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+          <div class="gl-hero-visual fade-in-up">
+            <div class="gl-radar" aria-hidden="true">
+              <div class="gl-radar-sweep"></div>
+              <div class="gl-radar-ring"></div>
+              <div class="gl-radar-ring r2"></div>
+              <div class="gl-radar-ring r3"></div>
+              <i class="fa-solid fa-tower-cell gl-radar-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#soluciones" class="gl-scroll-cue" aria-label="Desplazarse hacia abajo">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ================= SOLUCIONES ================= -->
+  <section class="gl-section" id="soluciones">
+    <div class="container">
+      <div class="gl-section-head reveal">
+        <p class="gl-eyebrow"><i class="fa-solid fa-layer-group"></i> Soluciones Integrales</p>
+        <h2 class="gl-h2">Comunicaciones e Ingeniería</h2>
+        <p class="gl-section-sub">Brindamos servicios integrales en telecomunicaciones: relevamiento, diseño e implementación de soluciones de misión crítica.</p>
+      </div>
+
+      <div class="gl-tabs reveal" role="tablist" aria-label="Áreas de soluciones">
+        <button class="gl-tab active" id="tab-comunicaciones" role="tab" aria-selected="true" aria-controls="panel-comunicaciones" data-target="soluciones-comunicaciones">
+          <i class="fa-solid fa-tower-broadcast"></i> Comunicaciones
+        </button>
+        <button class="gl-tab" id="tab-ingenieria" role="tab" aria-selected="false" aria-controls="panel-ingenieria" data-target="soluciones-ingenieria">
+          <i class="fa-solid fa-diagram-project"></i> Ingeniería
+        </button>
+      </div>
+
+      <!-- Panel Comunicaciones -->
+      <div class="gl-tab-panel active" id="soluciones-comunicaciones" role="tabpanel" aria-labelledby="tab-comunicaciones">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="gl-sol-card">
+              <div class="gl-sol-icon"><i class="fa-solid fa-tower-broadcast"></i></div>
+              <h3>Sistemas de Radio Troncalizados</h3>
+              <p>Soluciones rápidas, eficientes y seguras mediante el uso de canales compartidos gestionados por un controlador centralizado. Ideal para emergencias, seguridad, transporte y grandes eventos.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="gl-sol-card">
+              <div class="gl-sol-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <h3>Sistema Troncalizado ASTRO® 25</h3>
+              <p>Red de voz y datos integrados basada en estándares P25, diseñada para comunicaciones sin fisuras en seguridad pública y entornos críticos.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="gl-sol-card">
+              <div class="gl-sol-icon"><i class="fa-solid fa-city"></i></div>
+              <h3>Sistema Troncalizado TETRA</h3>
+              <p>Entorno operativo unificado que combina datos de múltiples fuentes en tiempo real para optimizar la seguridad en ciudades.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="gl-sol-card">
+              <div class="gl-sol-icon"><i class="fa-solid fa-satellite-dish"></i></div>
+              <h3>Sistemas MOTOTRBO DMR</h3>
+              <p>Tecnología digital de Motorola ideal para migrar redes analógicas existentes de forma gradual. Permite voz, datos, mensajería, telemetría y localización GPS/APL para minería, petróleo, energía y municipios.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="gl-sol-card">
+              <div class="gl-sol-icon"><i class="fa-solid fa-car-battery"></i></div>
+              <h3>ElectraGen™ ME</h3>
+              <p>Sistemas de respaldo de energía extendidos basados en celdas de combustible (hidrógeno a partir de metanol/agua) de 2.5 kW y 5 kW, ideales para torres de comunicación aisladas.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="gl-sol-card">
+              <div class="gl-sol-icon"><i class="fa-solid fa-drafting-compass"></i></div>
+              <h3>Relevamiento, Diseño e Implementación</h3>
+              <p>Estudio de cobertura, ingeniería de detalle y puesta en marcha llave en mano de cada proyecto de comunicaciones, adaptado a la operación del cliente.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel Ingeniería -->
+      <div class="gl-tab-panel" id="soluciones-ingenieria" role="tabpanel" aria-labelledby="tab-ingenieria" hidden>
+        <p class="gl-panel-lead">Conectividad a todo lugar y en todo momento.</p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="gl-sol-card">
+              <div class="gl-sol-icon"><i class="fa-solid fa-wifi"></i></div>
+              <h3>Implementación de Redes 5G</h3>
+              <p>Conectividad ultraveloz y de baja latencia para seguridad, minería y automatización industrial.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="gl-sol-card">
+              <div class="gl-sol-icon"><i class="fa-solid fa-chart-line"></i></div>
+              <h3>Optimización de Transmisión de Datos</h3>
+              <p>Actualizaciones y mantenimiento en torres de comunicaciones para mejorar la experiencia del usuario y reducir el consumo de recursos.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="gl-sol-card">
+              <div class="gl-sol-icon"><i class="fa-solid fa-microchip"></i></div>
+              <h3>IoT Industrial (IIoT)</h3>
+              <p>Soluciones estandarizadas y a medida (Ad-Hoc) para automatizar procesos, mediciones y monitoreo de activos corporativos.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRODUCTOS ================= -->
+  <section class="gl-section gl-section-alt" id="productos">
+    <div class="container">
+      <div class="gl-section-head reveal">
+        <p class="gl-eyebrow"><i class="fa-solid fa-boxes-stacked"></i> Catálogo</p>
+        <h2 class="gl-h2">Nuestros Productos</h2>
+        <p class="gl-section-sub">Equipamiento profesional de radiocomunicaciones para cada necesidad operativa.</p>
+      </div>
+
+      <div class="gl-filters reveal" role="tablist" aria-label="Filtrar productos por categoría">
+        <button class="gl-filter-btn active" data-filter="all">Todos</button>
+        <button class="gl-filter-btn" data-filter="portatiles">Radios Portátiles</button>
+        <button class="gl-filter-btn" data-filter="moviles">Radios Móviles</button>
+        <button class="gl-filter-btn" data-filter="repetidoras">Repetidoras</button>
+        <button class="gl-filter-btn" data-filter="accesorios">Accesorios</button>
+      </div>
+
+      <div class="row g-4" id="productGrid">
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 gl-product-item" data-category="portatiles">
+          <article class="gl-product-card">
+            <span class="gl-product-tag">Portátil</span>
+            <div class="gl-product-img"><i class="fa-solid fa-walkie-talkie"></i></div>
+            <h3>Motorola R7</h3>
+            <p>Radio portátil de última generación con conectividad Bluetooth y GPS integrado.</p>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 gl-product-item" data-category="portatiles">
+          <article class="gl-product-card">
+            <span class="gl-product-tag">Portátil</span>
+            <div class="gl-product-img"><i class="fa-solid fa-walkie-talkie"></i></div>
+            <h3>Motorola ION</h3>
+            <p>Dispositivo inteligente que combina radio de misión crítica con capacidades de banda ancha.</p>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 gl-product-item" data-category="portatiles">
+          <article class="gl-product-card">
+            <span class="gl-product-tag">Portátil</span>
+            <div class="gl-product-img"><i class="fa-solid fa-walkie-talkie"></i></div>
+            <h3>DEP 500</h3>
+            <p>Radio digital portátil robusta, ideal para entornos industriales exigentes.</p>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 gl-product-item" data-category="portatiles">
+          <article class="gl-product-card">
+            <span class="gl-product-tag">Portátil</span>
+            <div class="gl-product-img"><i class="fa-solid fa-walkie-talkie"></i></div>
+            <h3>DEP 250</h3>
+            <p>Solución digital económica sin pantalla para comunicación directa y confiable.</p>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 gl-product-item" data-category="moviles">
+          <article class="gl-product-card">
+            <span class="gl-product-tag">Móvil</span>
+            <div class="gl-product-img"><i class="fa-solid fa-car-side"></i></div>
+            <h3>DEM 300</h3>
+            <p>Radio móvil digital compacta para vehículos e instalaciones fijas.</p>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 gl-product-item" data-category="moviles">
+          <article class="gl-product-card">
+            <span class="gl-product-tag">Móvil</span>
+            <div class="gl-product-img"><i class="fa-solid fa-car-side"></i></div>
+            <h3>DEM 400</h3>
+            <p>Mayor potencia y alcance para flotas de transporte y logística.</p>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 gl-product-item" data-category="moviles">
+          <article class="gl-product-card">
+            <span class="gl-product-tag">Móvil</span>
+            <div class="gl-product-img"><i class="fa-solid fa-car-side"></i></div>
+            <h3>DEM 500</h3>
+            <p>Pantalla a color y funciones avanzadas de mensajería y telemetría.</p>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 gl-product-item" data-category="moviles">
+          <article class="gl-product-card">
+            <span class="gl-product-tag">Móvil</span>
+            <div class="gl-product-img"><i class="fa-solid fa-car-side"></i></div>
+            <h3>DGM 5000</h3>
+            <p>Radio móvil de alto desempeño para operaciones de misión crítica.</p>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 gl-product-item" data-category="repetidoras">
+          <article class="gl-product-card">
+            <span class="gl-product-tag">Repetidora</span>
+            <div class="gl-product-img"><i class="fa-solid fa-tower-cell"></i></div>
+            <h3>SLR 5100</h3>
+            <p>Repetidora digital de bajo consumo, fácil instalación y configuración.</p>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 gl-product-item" data-category="repetidoras">
+          <article class="gl-product-card">
+            <span class="gl-product-tag">Repetidora</span>
+            <div class="gl-product-img"><i class="fa-solid fa-tower-cell"></i></div>
+            <h3>SLR 1000</h3>
+            <p>Repetidora compacta ideal para coberturas de pequeña y mediana escala.</p>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 gl-product-item" data-category="repetidoras">
+          <article class="gl-product-card">
+            <span class="gl-product-tag">Repetidora</span>
+            <div class="gl-product-img"><i class="fa-solid fa-tower-cell"></i></div>
+            <h3>SLR 8000</h3>
+            <p>Repetidora de alta capacidad para redes troncalizadas de gran escala.</p>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 gl-product-item" data-category="accesorios">
+          <article class="gl-product-card">
+            <span class="gl-product-tag gl-tag-own">Fabricación Propia</span>
+            <div class="gl-product-img"><i class="fa-solid fa-wave-square"></i></div>
+            <h3>Duplexores GLTech</h3>
+            <p>Separadores de señal para antenas de alto rendimiento, diseñados y fabricados en Argentina.</p>
+          </article>
+        </div>
+
+      </div>
+      <p class="gl-empty-state d-none" id="emptyState">No se encontraron productos en esta categoría.</p>
+    </div>
+  </section>
+
+  <!-- ================= SERVICIO TECNICO ================= -->
+  <section class="gl-section" id="servicio-tecnico">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 reveal">
+          <p class="gl-eyebrow"><i class="fa-solid fa-screwdriver-wrench"></i> Post-Venta</p>
+          <h2 class="gl-h2">Servicio Técnico Oficial</h2>
+          <p class="gl-section-sub gl-text-left">
+            GLTech ofrece servicio de post-venta integral y garantía oficial de fábrica para todas las marcas
+            que comercializa. Nuestro equipo técnico certificado asegura la máxima disponibilidad de tus
+            equipos de comunicación crítica.
+          </p>
+          <div class="gl-brand-grid">
+            <div class="gl-brand-chip"><i class="fa-solid fa-star"></i> Motorola Solutions <span>Distribuidor Oficial</span></div>
+            <div class="gl-brand-chip">Vertex</div>
+            <div class="gl-brand-chip">Yaesu</div>
+            <div class="gl-brand-chip">Kyocera</div>
+            <div class="gl-brand-chip">Audiovox</div>
+          </div>
+        </div>
+        <div class="col-lg-6 reveal">
+          <div class="gl-service-panel">
+            <div class="gl-service-item">
+              <i class="fa-solid fa-certificate"></i>
+              <div>
+                <h4>Garantía Oficial de Fábrica</h4>
+                <p>Cobertura respaldada directamente por los fabricantes representados.</p>
+              </div>
+            </div>
+            <div class="gl-service-item">
+              <i class="fa-solid fa-truck-fast"></i>
+              <div>
+                <h4>Repuestos Originales</h4>
+                <p>Stock permanente de repuestos y accesorios homologados.</p>
+              </div>
+            </div>
+            <div class="gl-service-item">
+              <i class="fa-solid fa-user-gear"></i>
+              <div>
+                <h4>Técnicos Certificados</h4>
+                <p>Equipo capacitado directamente por Motorola Solutions y otras marcas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HISTORIA / TIMELINE ================= -->
+  <section class="gl-section gl-section-dark" id="nosotros">
+    <div class="container">
+      <div class="gl-section-head reveal">
+        <p class="gl-eyebrow"><i class="fa-solid fa-clock-rotate-left"></i> Nuestra Historia</p>
+        <h2 class="gl-h2 gl-h2-light">47 años a la vanguardia de la conectividad</h2>
+        <p class="gl-section-sub gl-section-sub-light">Desde Galander SRL hasta GLTech: un recorrido de innovación en telecomunicaciones.</p>
+      </div>
+
+      <div class="gl-timeline reveal" id="timeline">
+        <div class="gl-timeline-track"><div class="gl-timeline-progress" id="timelineProgress"></div></div>
+
+        <div class="gl-timeline-item" data-year="1978">
+          <button class="gl-timeline-dot" aria-expanded="false"><span>1978</span></button>
+          <div class="gl-timeline-content">
+            <h3>Nacimiento de Galander SRL</h3>
+            <p>Fundación en San Vicente, Córdoba. Comienza la venta de radios Yaesu.</p>
+          </div>
+        </div>
+
+        <div class="gl-timeline-item" data-year="1980">
+          <button class="gl-timeline-dot" aria-expanded="false"><span>1980</span></button>
+          <div class="gl-timeline-content">
+            <h3>Fabricación Nacional</h3>
+            <p>Inicio de la fabricación de accesorios: antenas, fuentes de poder, duplexores y repetidoras.</p>
+          </div>
+        </div>
+
+        <div class="gl-timeline-item" data-year="1985">
+          <button class="gl-timeline-dot" aria-expanded="false"><span>1985</span></button>
+          <div class="gl-timeline-content">
+            <h3>Licencia Yaesu</h3>
+            <p>Fabricación bajo licencia de los primeros radios nacionales: GTX 1540, GTX 2540 y GTX 2640.</p>
+          </div>
+        </div>
+
+        <div class="gl-timeline-item" data-year="1990">
+          <button class="gl-timeline-dot" aria-expanded="false"><span>1990</span></button>
+          <div class="gl-timeline-content">
+            <h3>Llega Vertex</h3>
+            <p>Vertex se registra oficialmente en Argentina a través de Galander.</p>
+          </div>
+        </div>
+
+        <div class="gl-timeline-item" data-year="1995">
+          <button class="gl-timeline-dot" aria-expanded="false"><span>1995</span></button>
+          <div class="gl-timeline-content">
+            <h3>Comtron Internacional</h3>
+            <p>Fundación de Comtron Internacional, red nacional troncalizada analógica.</p>
+          </div>
+        </div>
+
+        <div class="gl-timeline-item" data-year="1999">
+          <button class="gl-timeline-dot" aria-expanded="false"><span>1999</span></button>
+          <div class="gl-timeline-content">
+            <h3>Ingreso al Mercado Celular</h3>
+            <p>Venta de Audiovox a CTI por 1.5M USD y despliegue de redes para Telecom Argentina.</p>
+          </div>
+        </div>
+
+        <div class="gl-timeline-item" data-year="2001">
+          <button class="gl-timeline-dot" aria-expanded="false"><span>2001</span></button>
+          <div class="gl-timeline-content">
+            <h3>Escuelas Rurales de La Rioja</h3>
+            <p>Red de 120 estaciones para escuelas rurales, con fondos del Banco Mundial.</p>
+          </div>
+        </div>
+
+        <div class="gl-timeline-item" data-year="2003">
+          <button class="gl-timeline-dot" aria-expanded="false"><span>2003</span></button>
+          <div class="gl-timeline-content">
+            <h3>Smartzone Motorola 800 MHz</h3>
+            <p>Instalación de uno de los primeros sistemas Smartzone Motorola de 800 MHz en Argentina, para la Policía de Córdoba.</p>
+          </div>
+        </div>
+
+        <div class="gl-timeline-item" data-year="2010">
+          <button class="gl-timeline-dot" aria-expanded="false"><span>2010</span></button>
+          <div class="gl-timeline-content">
+            <h3>Proveedor Oficial Claro, Telecom y Alcatel</h3>
+            <p>Adjudicación de la red de internet libre más grande de América para EPEC: 2800 puntos de acceso Wi-Fi.</p>
+          </div>
+        </div>
+
+        <div class="gl-timeline-item" data-year="2017">
+          <button class="gl-timeline-dot" aria-expanded="false"><span>2017</span></button>
+          <div class="gl-timeline-content">
+            <h3>Nace la marca GLTech</h3>
+            <p>Migración del sistema policial de Córdoba a tecnología digital P25. Adquisición del paquete accionario por Grupo Inversiones Cóndor.</p>
+          </div>
+        </div>
+
+        <div class="gl-timeline-item" data-year="2019">
+          <button class="gl-timeline-dot" aria-expanded="false"><span>2019</span></button>
+          <div class="gl-timeline-content">
+            <h3>IoT sobre LoRaWAN</h3>
+            <p>Lanzamiento de soluciones IoT bajo red LoRaWAN en alianza con Yeap.</p>
+          </div>
+        </div>
+
+        <div class="gl-timeline-item" data-year="2023">
+          <button class="gl-timeline-dot" aria-expanded="false"><span>2023</span></button>
+          <div class="gl-timeline-content">
+            <h3>Capacity Plus Multi-Sitios</h3>
+            <p>Actualización del sistema municipal de Córdoba a Capacity Plus Multi-Sitios.</p>
+          </div>
+        </div>
+
+        <div class="gl-timeline-item gl-timeline-item-today" data-year="Hoy">
+          <button class="gl-timeline-dot" aria-expanded="false"><span><i class="fa-solid fa-star"></i></span></button>
+          <div class="gl-timeline-content">
+            <h3>Hoy · 47° Aniversario</h3>
+            <p>Casi medio siglo a la vanguardia de la conectividad en telecomunicaciones mineras, gubernamentales y corporativas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NOVEDADES ================= -->
+  <section class="gl-section gl-section-alt" id="novedades">
+    <div class="container">
+      <div class="gl-section-head reveal">
+        <p class="gl-eyebrow"><i class="fa-solid fa-newspaper"></i> Actualidad</p>
+        <h2 class="gl-h2">Novedades y Eventos</h2>
+        <p class="gl-section-sub">Lo último de GLTech en el mundo de las telecomunicaciones.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4 reveal">
+          <article class="gl-news-card">
+            <div class="gl-news-media">
+              <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=900&q=80" alt="Trabajador de la industria minera con equipamiento de seguridad" loading="lazy">
+              <span class="gl-news-badge">Evento</span>
+            </div>
+            <div class="gl-news-body">
+              <span class="gl-news-date"><i class="fa-regular fa-calendar"></i> Expo San Juan Minera</span>
+              <h3>Presentes en Expo San Juan Minera</h3>
+              <p>Participación clave compartiendo soluciones de radiocomunicaciones diseñadas para el exigente sector minero.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <article class="gl-news-card">
+            <div class="gl-news-media">
+              <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80" alt="Premiación corporativa internacional" loading="lazy">
+              <span class="gl-news-badge">Reconocimiento</span>
+            </div>
+            <div class="gl-news-body">
+              <span class="gl-news-date"><i class="fa-regular fa-calendar"></i> A&E Champions Motorola</span>
+              <h3>A&E Champions Motorola Solutions</h3>
+              <p>Reconocimiento a la excelencia en diseño e innovación técnica en Bogotá, Colombia y Punta Cana.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4 reveal">
+          <article class="gl-news-card">
+            <div class="gl-news-media">
+              <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80" alt="Showroom moderno con equipos tecnológicos" loading="lazy">
+              <span class="gl-news-badge">Novedad</span>
+            </div>
+            <div class="gl-news-body">
+              <span class="gl-news-date"><i class="fa-regular fa-calendar"></i> Córdoba, Argentina</span>
+              <h3>Inauguración de Showroom</h3>
+              <p>Nuevo espacio interactivo en Córdoba para demostración de cámaras, repetidoras y radios en vivo.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACTO ================= -->
+  <section class="gl-section" id="contacto">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5 reveal">
+          <p class="gl-eyebrow"><i class="fa-solid fa-comments"></i> Hablemos</p>
+          <h2 class="gl-h2">Contáctanos</h2>
+          <p class="gl-section-sub gl-text-left">¿Tenés un proyecto de comunicaciones críticas? Nuestro equipo está listo para asesorarte.</p>
+
+          <ul class="gl-contact-list">
+            <li><i class="fa-solid fa-location-dot"></i> Calle Caraffa, Córdoba, Argentina</li>
+            <li><a href="tel:+543517003210"><i class="fa-solid fa-phone"></i> +54 351-7003210</a></li>
+            <li><a href="mailto:marketing@gltech.com.ar"><i class="fa-solid fa-envelope"></i> marketing@gltech.com.ar</a></li>
+          </ul>
+
+          <div class="gl-social-row">
+            <a href="https://instagram.com/gltech.telecomunicaciones" target="_blank" rel="noopener noreferrer" aria-label="Instagram GLTech"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61553554769836" target="_blank" rel="noopener noreferrer" aria-label="Facebook GLTech"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/company/gltech.telecomunicaciones/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn GLTech"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-7 reveal">
+          <form class="gl-form" id="contactForm" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="gl-label" for="fName">Nombre</label>
+                <input type="text" class="gl-input" id="fName" name="fName" required minlength="2" autocomplete="given-name">
+                <span class="gl-error" id="err-fName">Ingresá tu nombre (mín. 2 caracteres).</span>
+              </div>
+              <div class="col-md-6">
+                <label class="gl-label" for="fLastName">Apellido</label>
+                <input type="text" class="gl-input" id="fLastName" name="fLastName" required minlength="2" autocomplete="family-name">
+                <span class="gl-error" id="err-fLastName">Ingresá tu apellido (mín. 2 caracteres).</span>
+              </div>
+              <div class="col-md-6">
+                <label class="gl-label" for="fEmail">Email</label>
+                <input type="email" class="gl-input" id="fEmail" name="fEmail" required autocomplete="email">
+                <span class="gl-error" id="err-fEmail">Ingresá un email válido.</span>
+              </div>
+              <div class="col-md-6">
+                <label class="gl-label" for="fPhone">Teléfono</label>
+                <input type="tel" class="gl-input" id="fPhone" name="fPhone" required pattern="^[0-9+\s\-()]{6,20}$" autocomplete="tel">
+                <span class="gl-error" id="err-fPhone">Ingresá un teléfono válido.</span>
+              </div>
+              <div class="col-12">
+                <label class="gl-label" for="fMessage">Mensaje</label>
+                <textarea class="gl-input" id="fMessage" name="fMessage" rows="5" required minlength="10"></textarea>
+                <span class="gl-error" id="err-fMessage">Contanos tu consulta (mín. 10 caracteres).</span>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn gl-btn-primary gl-form-submit">
+                  Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                </button>
+                <p class="gl-form-success" id="formSuccess" role="status" aria-live="polite">
+                  <i class="fa-solid fa-circle-check"></i> ¡Gracias! Tu mensaje fue enviado correctamente.
+                </p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="gl-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <a class="gl-logo gl-footer-logo" href="#inicio" aria-label="GLTech - Inicio">
+          <img src="imgs/gltech-logo-light.png" alt="GLTech" class="gl-logo-img">
+        </a>
+        <p class="gl-footer-text">Ex Galander S.A. Líderes en telecomunicaciones y radiocomunicaciones de misión crítica en Argentina y la región.</p>
+        <div class="gl-social-row">
+          <a href="https://instagram.com/gltech.telecomunicaciones" target="_blank" rel="noopener noreferrer" aria-label="Instagram GLTech"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61553554769836" target="_blank" rel="noopener noreferrer" aria-label="Facebook GLTech"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/company/gltech.telecomunicaciones/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn GLTech"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h5>Navegación</h5>
+        <ul class="gl-footer-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#soluciones">Soluciones</a></li>
+          <li><a href="#servicio-tecnico">Servicio Técnico</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h5>Empresa</h5>
+        <ul class="gl-footer-links">
+          <li><a href="#novedades">Novedades</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h5>Contacto</h5>
+        <ul class="gl-footer-links">
+          <li><i class="fa-solid fa-location-dot"></i> Calle Caraffa, Córdoba, Argentina</li>
+          <li><i class="fa-solid fa-phone"></i> +54 351-7003210</li>
+          <li><i class="fa-solid fa-envelope"></i> marketing@gltech.com.ar</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="gl-footer-divider">
+    <div class="gl-footer-bottom">
+      <p>&copy; <span id="year"></span> GLTech — Todos los derechos reservados.</p>
+      <p>Ex Galander S.A. · Distribuidor Oficial Motorola Solutions</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
